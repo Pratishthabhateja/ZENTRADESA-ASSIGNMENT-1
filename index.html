@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Display</title>
+  <style>
+    /* Basic styling for the product display */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h3>Name: Pratishtha Bhateja</h3>
+  <h3>Roll No: 20103012</h3>
+  <h3>Course: B.Tech,JIIT</h3>
+  <h3>The data fetched from the json file is presented in tabular format with title, Price ordered based on the descending popularity:</h3>
+  <table id="productTable">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody id="productData">
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
